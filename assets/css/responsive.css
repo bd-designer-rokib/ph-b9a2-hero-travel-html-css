@@ -1,0 +1,366 @@
+@media screen and (max-width: 992px) {
+  /* * Nav Section */
+  .nav-section .nav-right .menu-icon {
+    display: block;
+    font-size: 1.5rem;
+  }
+
+  .nav-section .nav-right ul {
+    display: none;
+  }
+  /* * Hero Section */
+  .hero-section .travel-search-bar {
+    width: auto;
+    max-width: 676px;
+    flex-direction: column;
+  }
+  .hero-section .travel-search-bar input,
+  .hero-section .travel-search-bar select,
+  .hero-section .travel-search-bar .search-btn {
+    width: 100%;
+  }
+  /* * Popular Tour Section */
+  .popular-tour-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .popular-tour-section .popular-tour-content {
+    max-width: 540px;
+  }
+  .popular-tour-section .popular-tour-img {
+    max-width: 540px;
+    height: 550px;
+  }
+  /* * Travel Info and Video Section */
+  .travel-video-section {
+    flex-direction: column;
+  }
+  .travel-video-section .travel-video-content {
+    max-width: 540px;
+    margin: 0 auto;
+  }
+  .travel-video-section .travel-video {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 540px;
+  }
+  .travel-video-section .travel-video iframe {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* * Destination Section */
+  .destination-section .destination-cards {
+    max-width: 540px;
+    margin: 0 auto;
+  }
+  .destination-section .destination-cards .destination-card-row1,
+  .destination-section .destination-cards .destination-card-row2,
+  .destination-section .destination-cards .destination-card-row3 {
+    flex-direction: column;
+  }
+  /* * Why Choose Us Section */
+  .why-choose-section .why-choose-desc {
+    max-width: 540px;
+  }
+  .why-choose-section .why-choose-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .why-choose-section .why-choose-cards .why-choose-card1,
+  .why-choose-section .why-choose-cards .why-choose-card2,
+  .why-choose-section .why-choose-cards .why-choose-card3 {
+    max-width: 540px;
+  }
+  /* * Newsletter Section */
+  .newsletter-section {
+    flex-direction: column;
+    max-width: 540px;
+    margin: 0 auto;
+  }
+  .newsletter-section .newsletter-form {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .newsletter-section .newsletter-img {
+    height: 300px;
+  }
+  .newsletter-section .newsletter-img .bg-img {
+    display: block;
+    border-radius: 1rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  /* * Nav Section */
+  .nav-section {
+    margin: 1.125rem 0;
+  }
+  .nav-section .nav-left {
+    gap: 0.625rem;
+  }
+  .nav-section .nav-left svg {
+    width: 28.724px;
+    height: 33.516px;
+    flex-shrink: 0;
+  }
+  .nav-section .nav-left .logo-text,
+  .nav-section .nav-left .logo-text span {
+    font-size: 1.375rem;
+  }
+  /* * Hero Section */
+  .hero-section {
+    padding: 2rem 1rem;
+  }
+  .hero-section .hero-title {
+    font-size: 1.375rem;
+  }
+  .hero-section .hero-desc {
+    font-size: 0.875rem;
+    margin: 0.5rem 0 2rem;
+  }
+  .hero-section .travel-search-bar {
+    gap: 1rem;
+  }
+  /* * Popular Tour Section */
+  .popular-tour-section {
+    margin: 2rem 0;
+  }
+  .popular-tour-section .popular-tour-content .popular-tour-title {
+    font-size: 1.25rem;
+  }
+  .popular-tour-section .popular-tour-content p,
+  .popular-tour-section .popular-tour-content ul li {
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+  }
+  .popular-tour-section .popular-tour-content ul li {
+    margin-bottom: 0;
+  }
+  .popular-tour-section .popular-tour-content ul li:not(:first-of-type) {
+    margin-top: 0.75rem;
+  }
+  .popular-tour-section .popular-tour-content p:first-of-type {
+    margin: 1rem 0;
+  }
+  .popular-tour-section .popular-tour-content p:last-of-type {
+    margin: 1rem 0 1.5rem;
+  }
+  .popular-tour-section .popular-tour-img {
+    height: 342px;
+    background-size: cover;
+    background-position: top center;
+    transition: height 0.3s ease-in-out;
+  }
+
+  /* * Destination Section */
+  .destination-section .destination-title {
+    font-size: 1.25rem;
+  }
+  .destination-section .destination-desc {
+    font-size: 0.875rem;
+    margin: 1rem 0;
+    line-height: 1.5rem;
+  }
+  .destination-section .destination-cards {
+    gap: 1rem;
+  }
+  .destination-section .destination-cards .destination-card-row1,
+  .destination-section .destination-cards .destination-card-row2,
+  .destination-section .destination-cards .destination-card-row3 {
+    gap: 1rem;
+  }
+  .destination-section
+    .destination-cards
+    .destination-card-row1
+    .destination-card1
+    h3,
+  .destination-section
+    .destination-cards
+    .destination-card-row1
+    .destination-card2
+    h3,
+  .destination-section
+    .destination-cards
+    .destination-card-row2
+    .destination-card1
+    h3,
+  .destination-section
+    .destination-cards
+    .destination-card-row2
+    .destination-card2
+    h3,
+  .destination-section
+    .destination-cards
+    .destination-card-row2
+    .destination-card3
+    h3,
+  .destination-section
+    .destination-cards
+    .destination-card-row3
+    .destination-card1
+    h3,
+  .destination-section
+    .destination-cards
+    .destination-card-row3
+    .destination-card2
+    h3 {
+    padding: 4.688rem 0;
+    font-size: 1.25rem;
+    transition: all 0.3s ease-in-out;
+  }
+
+  /* * Why Choose Us Section */
+  .why-choose-section {
+    padding: 2rem 0;
+  }
+  .why-choose-section .why-choose-title {
+    font-size: 1.25rem;
+  }
+  .why-choose-section .why-choose-desc {
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    margin: 1rem 0;
+  }
+  .why-choose-section .why-choose-cards {
+    gap: 1rem;
+  }
+  .why-choose-section .why-choose-cards .why-choose-card1,
+  .why-choose-section .why-choose-cards .why-choose-card2,
+  .why-choose-section .why-choose-cards .why-choose-card3 {
+    max-width: 100%;
+  }
+  .why-choose-section .why-choose-cards img {
+    width: 48px;
+  }
+  .why-choose-section .why-choose-cards .why-choose-card-title {
+    margin: 1rem 0;
+  }
+  .why-choose-section .why-choose-cards .why-choose-card-desc {
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+  }
+  /* * Deals & Discounts Section */
+  .deals-section .deals-title {
+    font-size: 1.25rem;
+  }
+  .deals-section .deals-desc {
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    margin: 1rem 0;
+  }
+  .deals-section .deals-cards {
+    gap: 1rem;
+  }
+  .deals-section .deals-cards .deals-card1,
+  .deals-section .deals-cards .deals-card2 {
+    justify-content: center;
+    align-items: flex-end;
+    padding: 185px 1rem 1rem;
+  }
+  .deals-section .deals-cards .deals-box {
+    padding: 16px;
+  }
+  .deals-section .deals-cards .deals-box .deals-card-title {
+    margin: 1rem 0 0.5rem;
+    font-size: 20px;
+  }
+  .deals-section .deals-cards .deals-box .deals-card-desc {
+    font-size: 14px;
+    line-height: 1.5rem;
+  }
+  .deals-section .deals-cards .deals-box .deals-card-price {
+    margin: 12px 0 16px;
+  }
+  .deals-section .deals-cards .deals-box .deals-card-btn {
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+  .deals-section .see-all-btn {
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+  /* * Travel Info and Video Section */
+  .travel-video-section {
+    margin: 2rem 0;
+  }
+  .travel-video-section .travel-video-content .travel-video-title {
+    font-size: 1.25rem;
+    line-height: 30px;
+  }
+  .travel-video-section .travel-video-content p {
+    margin: 1rem 0;
+  }
+  .travel-video-section .travel-video-content p,
+  .travel-video-section .travel-video-content ul li {
+    font-size: 14px;
+    line-height: 1.5rem;
+  }
+  .travel-video-section .travel-video-content ul li:last-of-type {
+    margin-bottom: 1.5rem;
+  }
+  .travel-video-section .travel-video iframe {
+    height: 300px;
+  }
+  /* * Newsletter Section */
+  .newsletter-section .newsletter-form {
+    padding: 24px;
+  }
+  .newsletter-section .newsletter-form .newsletter-title {
+    font-size: 20px;
+  }
+  .newsletter-section .newsletter-form .newsletter-desc {
+    font-size: 14px;
+    line-height: 1.5rem;
+    margin-top: 0.5rem;
+  }
+  .newsletter-section .newsletter-form .hr {
+    margin: 1rem 0;
+  }
+  .newsletter-section .newsletter-form .newsletter-email {
+    margin-bottom: 1.25rem;
+  }
+  .newsletter-section .newsletter-img .discount-box {
+    padding: 15px 26px;
+    bottom: 34px;
+    right: 10px;
+  }
+  .newsletter-section .newsletter-img .discount-box p {
+    font-size: 16px;
+  }
+  .newsletter-section .newsletter-img .discount-box h2 {
+    font-size: 21px;
+  }
+  /* * Footer Section */
+  .footer-section{
+    margin-top: 24px;
+    padding: 24px 1rem;
+  }
+  .footer-section .footer-title {
+    gap: 10px;
+  }
+  .footer-section .footer-title .logo-text{
+    font-size: 21.5px;
+  }
+  .footer-section .footer-desc {
+    margin: 1rem 0;
+    font-size: 14px;
+    line-height: 1.5rem;
+  }
+  .footer-section .hr{
+    margin: 1.5rem 0;
+  }
+  .footer-section .copyright{
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* * Travel Info and Video Section */
+  .travel-video-section .travel-video iframe {
+    height: 200px;
+  }
+}
